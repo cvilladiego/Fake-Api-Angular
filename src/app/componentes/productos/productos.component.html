@@ -1,0 +1,10 @@
+<div class="container-products">
+    <div *ngFor="let producto of productos; let i = index">
+        <img [src]="producto.image" alt="imagen de producto">
+        <h2>{{producto.title}}</h2>
+        <p>{{producto.description}}</p>
+        <h4>{{ producto.price | currency:'COP':'$' }}</h4>
+        <!-- <a [routerLink]="['/producto', i]">Ver más</a> -->
+        <button (click)="verProducto(i)">Ver más</button>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    div{
+        width: 300px;
+        height: auto;
+        background-color: rgb(254, 252, 252);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        img{
+            width: 60%;
+        }
+
+        h2{
+            background-color: rgba(84, 8, 126, 0.924);
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 1.9rem;
+            font-weight: bold;
+            color: #fff;
+
+        }
+        p{
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            color: rgb(103, 103, 103);
+            
+        }
+        h4{
+            font-size: 2.0rem;
+            font-weight: bold;
+            color: rgb(103, 103, 103);
+            margin-bottom: 5px;
+        }
+        button{
+            padding: 10px;
+            width: 150px;
+            height: 50px;
+            background-color: rgba(84, 8, 126, 0.924);
+            margin-left: 10px;
+            margin-top: 20px;
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: 500;
+            border: none;
+            
+            &:hover{
+                background-color: rgba(136, 1, 209, 0.924);
+
+            }
+
+
+        }
+    }
+
+}
